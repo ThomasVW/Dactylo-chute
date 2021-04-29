@@ -145,7 +145,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Jeu.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="mot.cpp" />
+    <ClCompile Include="Score.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Jeu.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="mot.h" />
+    <ClInclude Include="Score.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
